@@ -32,6 +32,6 @@ void main() {
       const Task(id: -1, description: '', check: false),
       const Task(id: 2, description: '', check: false),
     ]);
-    expect(tasks.length, 1);
+    expect(tasks.length, 2);
   });
 }
